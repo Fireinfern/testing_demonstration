@@ -1,3 +1,6 @@
 # Add Bar to list of disallowed-names ["foo", "baz", "quux"]
 disallowed-names = ["bar", ".."]
 
+disallowed-methods = [
+    'clippy_demo::adder::forbiden_func'
+]
